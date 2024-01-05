@@ -2,8 +2,8 @@
   "links": [
     {
       "name": "twitter",
-      "url": "https://twitter.com/taqjac",
-      "image": "images/social/instagram.svg"
+      "url": "https://x.com/taqjac",
+      "image": "images/social/x.svg"
     },
     {
       "name": "github",
@@ -14,6 +14,21 @@
       "name": "linkedin",
       "url": "https://www.linkedin.com",
       "image": "images/social/linkedin.svg"
+    },
+    {
+      "name": "mastodon",
+      "url": "https://masto.pt/@taqjac",
+      "image": "images/social/mastodon.svg"
+    },
+    {
+      "name": "lastfm",
+      "url": "https://www.last.fm/user/taqjac",
+      "image": "images/social/lastdotfm.svg"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/taqjac",
+      "image": "images/social/instagram.svg"
     }
   ]
 }

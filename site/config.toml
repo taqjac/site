@@ -1,8 +1,8 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "pt-pt"
 theme = "hugo-winston-theme"
 themesDir = "themes"
-title = "Tiago Jacinto"
+title = "TAQJAC"
 paginate = 3
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -15,9 +15,9 @@ pygmentsUseClasses = true
 
 [params]
   google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
+  twitter_handle = "@taqjac"
   showAuthorOnHomepage = true
-  showAuthorOnPosts = true
+  showAuthorOnPosts = false
   showIntroContentOnHomepage = true
   showPostsOnHomepage = false
   usePaginationOnHomepage = false
@@ -32,9 +32,9 @@ pygmentsUseClasses = true
   textColor = "#4e5157"
   dotColor = "#e1ddd8"
   enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap"
-  fontFamilyHeading = "Alegreya"
-  fontFamilyParagraph = "Alegreya"
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+  fontFamilyHeading = "Roboto"
+  fontFamilyParagraph = "Roboto"
   fontFamilyMonospace = "monospace"
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
