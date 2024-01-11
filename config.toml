@@ -6,10 +6,10 @@ baseURL = "https://taqjac.netlify.app"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
-author = "Jane Doe"
+title = "taqjac"
+author = "Tiago Jacinto"
 copyright = "Copyright © 2020, Jane Doe."
-languageCode = "en-US"
+languageCode = "pt-PT"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
@@ -38,15 +38,15 @@ ignoreErrors = ["error-disable-taxonomy"]
   # Another "title" :-). This one is used as the site_name on the Hugo's internal
   # opengraph structured data template.
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-  title = "Hugo ʕ•ᴥ•ʔ Bear"
+  title = "TAQJAC"
 
   # This theme will, by default, inject a made-with-line at the bottom of the page.
   # You can turn it off, but we would really appreciate if you don’t :-).
-  # hideMadeWithLine = true
+  hideMadeWithLine = true
 
   # By default, this theme displays dates with a format like "02 Jan, 2006", but
   # you can customize it by setting the `dateFormat` param in your site's config
   # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
-  # dateFormat = "2006-01-02"
+  dateFormat = "2006-01-02"
