@@ -1,20 +1,28 @@
 {{ define "main" }}
 <content>
+
+  <h1>Blog</h1>
+
+  <p>Texto</p>
+
   {{ if .Data.Singular }}
-  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+  <h3 style="margin-bottom:0">A filtrar por "{{ .Title }}"</h3>
   <small>
-    <a href="{{ "blog" | relURL }}">Remove filter</a>
+    <a href="{{ "blog" | relURL }}">Remover filtro</a>
   </small>
   {{ end }}
+
+
+
   <ul class="blog-posts">
     {{ range .Pages }}
     <li>
       <span>
-        <i>
+        <small>
           <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
             {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
           </time>
-        </i>
+        </small>
       </span>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
@@ -26,13 +34,14 @@
   </ul>
   {{ if .Data.Singular }}
   {{else}}
-    <small>
+
+  <p>Texto</p>
       <div>
         {{ range .Site.Taxonomies.tags }}
         <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
         {{ end }}
       </div>
-    </small>
+    
     {{ end }}
 </content>
 {{ end }}

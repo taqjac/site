@@ -1,6 +1,7 @@
 +++
 title = "Hugo"
 menu = "main"
+date = "2024-01-10T16:31:25Z"
 +++
 
 # Hugo
