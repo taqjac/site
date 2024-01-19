@@ -17,3 +17,4 @@ Bear makes it simple to publish content online and grow an audience while keepin
 Each page is ~5kb.
 
 Learn more and contribute on [GitHub](https://github.com/HermanMartinus/bearblog).
+

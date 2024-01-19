@@ -11,3 +11,5 @@ tags = ["tag1","tag2",]
 +++
 
 This is a page about »Test«.
+
+This is a link to another [blog post](/markdown-syntax-guide).
